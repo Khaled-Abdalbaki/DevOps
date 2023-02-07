@@ -1,0 +1,16 @@
+2023-02-07_00:18:00.77381 [2023-02-07 00:18:00] INFO  WEBrick 1.6.1
+2023-02-07_00:18:00.77432 [2023-02-07 00:18:00] INFO  ruby 2.7.7 (2022-11-24) [aarch64-linux]
+2023-02-07_00:18:00.77580 == Sinatra (v2.2.3) has taken the stage on 9168 for development with backup from WEBrick
+2023-02-07_00:18:00.77735 [2023-02-07 00:18:00] INFO  WEBrick::HTTPServer#start: pid=318 port=9168
+2023-02-07_00:18:10.93745 E, [2023-02-07T00:18:10.937303 #318] ERROR -- : Error connecting to the database: FATAL:  the database system is starting up
+2023-02-07_00:18:10.93809 
+2023-02-07_00:18:10.94644 E, [2023-02-07T00:18:10.946372 #318] ERROR -- : Error connecting to the database: FATAL:  the database system is starting up
+2023-02-07_00:18:10.94680 
+2023-02-07_00:18:10.95746 E, [2023-02-07T00:18:10.956833 #318] ERROR -- : Error connecting to the database: FATAL:  the database system is starting up
+2023-02-07_00:18:10.95953 
+2023-02-07_00:18:10.97895 127.0.0.1 - - [07/Feb/2023:00:18:10 UTC] "GET /database HTTP/1.1" 200 0
+2023-02-07_00:18:10.98037 - -> /database
+2023-02-07_00:18:11.56199 127.0.0.1 - - [07/Feb/2023:00:18:11 UTC] "GET /sidekiq HTTP/1.1" 200 82753
+2023-02-07_00:18:11.56269 - -> /sidekiq
+2023-02-07_00:18:12.67050 127.0.0.1 - - [07/Feb/2023:00:18:12 UTC] "GET /ruby HTTP/1.1" 200 991
+2023-02-07_00:18:12.67159 - -> /ruby

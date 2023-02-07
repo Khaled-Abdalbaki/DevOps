@@ -1,0 +1,12 @@
+2023-02-07_00:19:07.72258 LOG:  starting PostgreSQL 13.8 on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2023-02-07_00:19:07.73323 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2023-02-07_00:19:07.92827 LOG:  database system was interrupted; last known up at 2023-02-07 00:18:53 GMT
+2023-02-07_00:19:19.18284 FATAL:  the database system is starting up
+2023-02-07_00:19:19.18964 FATAL:  the database system is starting up
+2023-02-07_00:19:19.20245 FATAL:  the database system is starting up
+2023-02-07_00:19:21.87442 LOG:  could not open file "./server.crt": Operation not permitted
+2023-02-07_00:19:21.87573 LOG:  could not open file "./server.key": Operation not permitted
+2023-02-07_00:19:21.88441 LOG:  database system was not properly shut down; automatic recovery in progress
+2023-02-07_00:19:22.03457 LOG:  invalid record length at 0/5E06960: wanted 24, got 0
+2023-02-07_00:19:22.03503 LOG:  redo is not required
+2023-02-07_00:19:22.34828 LOG:  database system is ready to accept connections

@@ -1,0 +1,6 @@
+2023-02-07_00:10:52.75913 ts=2023-02-07T00:10:52.746Z caller=main.go:135 level=info msg="Listening on address" address=localhost:9187
+2023-02-07_00:10:52.75968 ts=2023-02-07T00:10:52.746Z caller=tls_config.go:195 level=info msg="TLS is disabled." http2=false
+2023-02-07_00:11:04.17615 ts=2023-02-07T00:11:04.176Z caller=server.go:74 level=info msg="Established new database connection" fingerprint=/var/opt/gitlab/postgresql:5432
+2023-02-07_00:11:04.17982 ts=2023-02-07T00:11:04.179Z caller=collector.go:196 level=error msg="collector failed" name=bgwriter duration_seconds=0.002885 err="dial unix /var/opt/gitlab/postgresql/.s.PGSQL.5432: connect: connection refused"
+2023-02-07_00:11:04.18046 ts=2023-02-07T00:11:04.180Z caller=collector.go:196 level=error msg="collector failed" name=database duration_seconds=0.003047042 err="dial unix /var/opt/gitlab/postgresql/.s.PGSQL.5432: connect: connection refused"
+2023-02-07_00:11:05.18114 ts=2023-02-07T00:11:05.179Z caller=postgres_exporter.go:714 level=error err="Error opening connection to database (host=/var/opt/gitlab/postgresql%20user=gitlab-psql%20database=gitlabhq_production): dial unix /var/opt/gitlab/postgresql/.s.PGSQL.5432: connect: connection refused"

@@ -1,0 +1,28 @@
+2023-02-07_00:11:17.74296 FATAL:  lock file "postmaster.pid" already exists
+2023-02-07_00:11:17.74444 HINT:  Is another postmaster (PID 336) running in data directory "/var/opt/gitlab/postgresql/data"?
+2023-02-07_00:11:18.77061 FATAL:  lock file "postmaster.pid" already exists
+2023-02-07_00:11:18.77093 HINT:  Is another postmaster (PID 336) running in data directory "/var/opt/gitlab/postgresql/data"?
+2023-02-07_00:11:19.79416 FATAL:  lock file "postmaster.pid" already exists
+2023-02-07_00:11:19.79452 HINT:  Is another postmaster (PID 336) running in data directory "/var/opt/gitlab/postgresql/data"?
+2023-02-07_00:11:20.82905 FATAL:  lock file "postmaster.pid" already exists
+2023-02-07_00:11:20.82962 HINT:  Is another postmaster (PID 336) running in data directory "/var/opt/gitlab/postgresql/data"?
+2023-02-07_00:11:21.85005 FATAL:  lock file "postmaster.pid" already exists
+2023-02-07_00:11:21.85029 HINT:  Is another postmaster (PID 336) running in data directory "/var/opt/gitlab/postgresql/data"?
+2023-02-07_00:11:22.87240 FATAL:  lock file "postmaster.pid" already exists
+2023-02-07_00:11:22.87399 HINT:  Is another postmaster (PID 336) running in data directory "/var/opt/gitlab/postgresql/data"?
+2023-02-07_00:11:23.90259 FATAL:  lock file "postmaster.pid" already exists
+2023-02-07_00:11:23.90297 HINT:  Is another postmaster (PID 336) running in data directory "/var/opt/gitlab/postgresql/data"?
+2023-02-07_00:11:24.91523 FATAL:  lock file "postmaster.pid" already exists
+2023-02-07_00:11:24.91571 HINT:  Is another postmaster (PID 336) running in data directory "/var/opt/gitlab/postgresql/data"?
+2023-02-07_00:11:25.94455 FATAL:  lock file "postmaster.pid" already exists
+2023-02-07_00:11:25.94525 HINT:  Is another postmaster (PID 336) running in data directory "/var/opt/gitlab/postgresql/data"?
+2023-02-07_00:11:26.96353 FATAL:  lock file "postmaster.pid" already exists
+2023-02-07_00:11:26.96411 HINT:  Is another postmaster (PID 336) running in data directory "/var/opt/gitlab/postgresql/data"?
+2023-02-07_00:11:27.97796 FATAL:  lock file "postmaster.pid" already exists
+2023-02-07_00:11:27.97853 HINT:  Is another postmaster (PID 336) running in data directory "/var/opt/gitlab/postgresql/data"?
+2023-02-07_00:11:28.99244 FATAL:  lock file "postmaster.pid" already exists
+2023-02-07_00:11:28.99303 HINT:  Is another postmaster (PID 336) running in data directory "/var/opt/gitlab/postgresql/data"?
+2023-02-07_00:11:30.00901 FATAL:  lock file "postmaster.pid" already exists
+2023-02-07_00:11:30.00961 HINT:  Is another postmaster (PID 336) running in data directory "/var/opt/gitlab/postgresql/data"?
+2023-02-07_00:11:31.02289 FATAL:  lock file "postmaster.pid" already exists
+2023-02-07_00:11:31.02329 HINT:  Is another postmaster (PID 336) running in data directory "/var/opt/gitlab/postgresql/data"?

@@ -1,0 +1,31 @@
+{"level":"info","msg":"Wrapper started","pid":331,"time":"2023-02-07T00:11:42.595Z","wrapper":331}
+{"level":"info","msg":"finding process","pid":331,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-02-07T00:11:42.595Z","wrapper":331}
+{"level":"info","msg":"spawning a process","pid":331,"time":"2023-02-07T00:11:42.599Z","wrapper":331}
+{"level":"info","msg":"monitoring process","pid":331,"process":373,"time":"2023-02-07T00:11:42.621Z","wrapper":331}
+time="2023-02-07T00:11:43Z" level=info msg="Starting Gitaly, version 15.8.1"
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","time":"2023-02-07T00:11:43.018Z"}
+{"level":"info","msg":"License database preloaded","time":"2023-02-07T00:11:46.333Z"}
+{"level":"info","msg":"removed leftover gitaly process directory","path":"/var/opt/gitlab/gitaly/run/gitaly-392","time":"2023-02-07T00:11:46.383Z"}
+{"level":"info","msg":"removed leftover gitaly process directory","path":"/var/opt/gitlab/gitaly/run/gitaly-395","time":"2023-02-07T00:11:46.434Z"}
+{"level":"info","msg":"removed leftover gitaly process directory","path":"/var/opt/gitlab/gitaly/run/gitaly-404","time":"2023-02-07T00:11:46.481Z"}
+{"error":"list gitaly process directory: open /sys/fs/cgroup/memory/gitaly: no such file or directory","level":"error","msg":"failed to clean up memory cgroups","time":"2023-02-07T00:11:46.492Z"}
+{"error":"list gitaly process directory: open /sys/fs/cgroup/cpu/gitaly: no such file or directory","level":"error","msg":"failed to clean up cpu cgroups","time":"2023-02-07T00:11:46.492Z"}
+{"level":"info","msg":"clearing disk cache object folder","storage":"default","time":"2023-02-07T00:11:50.165Z"}
+{"level":"info","msg":"finished tempdir cleaner walk","storage":"default","time":"2023-02-07T00:11:50.170Z","time_ms":6}
+{"level":"info","msg":"moving disk cache object folder to /var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache3857435822","storage":"default","time":"2023-02-07T00:11:50.176Z"}
+{"level":"info","msg":"disk cache object folder doesn't exist, no need to remove","storage":"default","time":"2023-02-07T00:11:50.178Z"}
+{"level":"info","msg":"Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/cache","path":"/var/opt/gitlab/git-data/repositories/+gitaly/cache","time":"2023-02-07T00:11:50.178Z"}
+{"level":"info","msg":"Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/state","path":"/var/opt/gitlab/git-data/repositories/+gitaly/state","time":"2023-02-07T00:11:50.178Z"}
+{"level":"info","msg":"cleared all cache object files in /var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache3857435822 after 2.046416ms","storage":"default","time":"2023-02-07T00:11:50.181Z"}
+{"level":"info","msg":"starting RSS monitor","supervisor.name":"gitaly-ruby.0","supervisor.rss_threshold":209715200,"time":"2023-02-07T00:11:50.187Z"}
+{"level":"info","msg":"starting RSS monitor","supervisor.name":"gitaly-ruby.1","supervisor.rss_threshold":209715200,"time":"2023-02-07T00:11:50.188Z"}
+{"level":"warning","msg":"spawned","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","373","/var/opt/gitlab/gitaly/run/gitaly-373/sock.d/ruby.0"],"supervisor.name":"gitaly-ruby.0","supervisor.pid":432,"time":"2023-02-07T00:11:50.194Z"}
+{"level":"warning","msg":"[core] [Channel #4 SubChannel #5] grpc: addrConn.createTransport failed to connect to {\n  \"Addr\": \"/var/opt/gitlab/gitaly/run/gitaly-373/sock.d/ruby.1\",\n  \"ServerName\": \"/var/opt/gitlab/gitaly/run/gitaly-373/sock.d/ruby.1\",\n  \"Attributes\": null,\n  \"BalancerAttributes\": null,\n  \"Type\": 0,\n  \"Metadata\": null\n}. Err: connection error: desc = \"transport: Error while dialing dial unix /var/opt/gitlab/gitaly/run/gitaly-373/sock.d/ruby.1: connect: no such file or directory\"","pid":373,"system":"system","time":"2023-02-07T00:11:50.200Z"}
+{"level":"warning","msg":"[core] [Channel #1 SubChannel #2] grpc: addrConn.createTransport failed to connect to {\n  \"Addr\": \"/var/opt/gitlab/gitaly/run/gitaly-373/sock.d/ruby.0\",\n  \"ServerName\": \"/var/opt/gitlab/gitaly/run/gitaly-373/sock.d/ruby.0\",\n  \"Attributes\": null,\n  \"BalancerAttributes\": null,\n  \"Type\": 0,\n  \"Metadata\": null\n}. Err: connection error: desc = \"transport: Error while dialing dial unix /var/opt/gitlab/gitaly/run/gitaly-373/sock.d/ruby.0: connect: no such file or directory\"","pid":373,"system":"system","time":"2023-02-07T00:11:50.200Z"}
+{"level":"warning","msg":"spawned","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","373","/var/opt/gitlab/gitaly/run/gitaly-373/sock.d/ruby.1"],"supervisor.name":"gitaly-ruby.1","supervisor.pid":433,"time":"2023-02-07T00:11:50.203Z"}
+{"address":"/var/opt/gitlab/gitaly/gitaly.socket","level":"info","msg":"listening at unix address","time":"2023-02-07T00:11:50.206Z"}
+{"address":"/var/opt/gitlab/gitaly/run/gitaly-373/sock.d/intern","level":"info","msg":"listening at unix address","time":"2023-02-07T00:11:50.210Z"}
+{"address":"localhost:9236","level":"info","msg":"starting prometheus listener","time":"2023-02-07T00:11:50.210Z"}
+{"level":"info","msg":"maintenance: daily scheduled","pid":373,"scheduled":"2023-02-07T12:00:00Z","time":"2023-02-07T00:11:50.211Z"}
+{"level":"info","msg":"PID 433 BUNDLE_GEMFILE=/opt/gitlab/embedded/service/gitaly-ruby/Gemfile","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","373","/var/opt/gitlab/gitaly/run/gitaly-373/sock.d/ruby.1"],"supervisor.name":"gitaly-ruby.1","time":"2023-02-07T00:11:50.652Z"}
+{"level":"info","msg":"PID 432 BUNDLE_GEMFILE=/opt/gitlab/embedded/service/gitaly-ruby/Gemfile","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","373","/var/opt/gitlab/gitaly/run/gitaly-373/sock.d/ruby.0"],"supervisor.name":"gitaly-ruby.0","time":"2023-02-07T00:11:50.690Z"}

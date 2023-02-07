@@ -1,0 +1,6 @@
+2023-02-07_00:16:21.36488 ts=2023-02-07T00:16:21.364Z caller=main.go:135 level=info msg="Listening on address" address=localhost:9187
+2023-02-07_00:16:21.36577 ts=2023-02-07T00:16:21.365Z caller=tls_config.go:195 level=info msg="TLS is disabled." http2=false
+2023-02-07_00:16:34.17980 ts=2023-02-07T00:16:34.178Z caller=server.go:74 level=info msg="Established new database connection" fingerprint=/var/opt/gitlab/postgresql:5432
+2023-02-07_00:16:34.19778 ts=2023-02-07T00:16:34.197Z caller=collector.go:196 level=error msg="collector failed" name=bgwriter duration_seconds=0.018323083 err="pq: the database system is starting up"
+2023-02-07_00:16:34.21474 ts=2023-02-07T00:16:34.214Z caller=collector.go:196 level=error msg="collector failed" name=database duration_seconds=0.02808825 err="pq: the database system is starting up"
+2023-02-07_00:16:35.20048 ts=2023-02-07T00:16:35.197Z caller=postgres_exporter.go:714 level=error err="Error opening connection to database (host=/var/opt/gitlab/postgresql%20user=gitlab-psql%20database=gitlabhq_production): pq: the database system is starting up"

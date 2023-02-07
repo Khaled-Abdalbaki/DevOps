@@ -1,0 +1,17 @@
+{
+	"ulid": "01GRMAES2ZYE7972S7YXPE8D5S",
+	"minTime": 1675706400000,
+	"maxTime": 1675713600000,
+	"stats": {
+		"numSamples": 305561,
+		"numSeries": 7737,
+		"numChunks": 7737
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01GRMAES2ZYE7972S7YXPE8D5S"
+		]
+	},
+	"version": 1
+}

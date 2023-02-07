@@ -1,0 +1,22 @@
+2023-02-07_00:11:18.35969 [2023-02-07 00:11:18] INFO  WEBrick 1.6.1
+2023-02-07_00:11:18.36220 [2023-02-07 00:11:18] INFO  ruby 2.7.7 (2022-11-24) [aarch64-linux]
+2023-02-07_00:11:18.36291 == Sinatra (v2.2.3) has taken the stage on 9168 for development with backup from WEBrick
+2023-02-07_00:11:18.36340 [2023-02-07 00:11:18] INFO  WEBrick::HTTPServer#start: pid=325 port=9168
+2023-02-07_00:11:25.82849 E, [2023-02-07T00:11:25.828426 #325] ERROR -- : Error connecting to the database: could not connect to server: Connection refused
+2023-02-07_00:11:25.83894 	Is the server running locally and accepting
+2023-02-07_00:11:25.83979 	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+2023-02-07_00:11:25.84134 
+2023-02-07_00:11:25.84233 E, [2023-02-07T00:11:25.829017 #325] ERROR -- : Error connecting to the database: could not connect to server: Connection refused
+2023-02-07_00:11:25.84316 	Is the server running locally and accepting
+2023-02-07_00:11:25.84381 	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+2023-02-07_00:11:25.84447 
+2023-02-07_00:11:25.84510 E, [2023-02-07T00:11:25.829452 #325] ERROR -- : Error connecting to the database: could not connect to server: Connection refused
+2023-02-07_00:11:25.84561 	Is the server running locally and accepting
+2023-02-07_00:11:25.84629 	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+2023-02-07_00:11:25.84709 
+2023-02-07_00:11:25.84766 127.0.0.1 - - [07/Feb/2023:00:11:25 UTC] "GET /database HTTP/1.1" 200 0
+2023-02-07_00:11:25.84852 - -> /database
+2023-02-07_00:11:26.34998 127.0.0.1 - - [07/Feb/2023:00:11:26 UTC] "GET /sidekiq HTTP/1.1" 200 82753
+2023-02-07_00:11:26.35073 - -> /sidekiq
+2023-02-07_00:11:27.63243 127.0.0.1 - - [07/Feb/2023:00:11:27 UTC] "GET /ruby HTTP/1.1" 200 991
+2023-02-07_00:11:27.63310 - -> /ruby

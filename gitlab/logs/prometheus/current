@@ -1,0 +1,109 @@
+2023-02-07_00:26:37.67248 ts=2023-02-07T00:26:37.670Z caller=main.go:495 level=info msg="No time or size retention was set so using the default time retention" duration=15d
+2023-02-07_00:26:37.67353 ts=2023-02-07T00:26:37.672Z caller=main.go:539 level=info msg="Starting Prometheus Server" mode=server version="(version=2.38.0, branch=master, revision=)"
+2023-02-07_00:26:37.67632 ts=2023-02-07T00:26:37.672Z caller=main.go:544 level=info build_context="(go=go1.18.7, user=GitLab-Omnibus, date=)"
+2023-02-07_00:26:37.67905 ts=2023-02-07T00:26:37.672Z caller=main.go:545 level=info host_details="(Linux 5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022 aarch64 gitlab.example.com (none))"
+2023-02-07_00:26:37.68012 ts=2023-02-07T00:26:37.672Z caller=main.go:546 level=info fd_limits="(soft=50000, hard=50000)"
+2023-02-07_00:26:37.68087 ts=2023-02-07T00:26:37.672Z caller=main.go:547 level=info vm_limits="(soft=unlimited, hard=unlimited)"
+2023-02-07_00:26:37.68760 ts=2023-02-07T00:26:37.687Z caller=web.go:553 level=info component=web msg="Start listening for connections" address=localhost:9090
+2023-02-07_00:26:37.68904 ts=2023-02-07T00:26:37.688Z caller=main.go:976 level=info msg="Starting TSDB ..."
+2023-02-07_00:26:37.69268 ts=2023-02-07T00:26:37.692Z caller=tls_config.go:195 level=info component=web msg="TLS is disabled." http2=false
+2023-02-07_00:26:37.69351 ts=2023-02-07T00:26:37.693Z caller=repair.go:56 level=info component=tsdb msg="Found healthy block" mint=1675643173715 maxt=1675663200000 ulid=01GRK6NGQ7MVJ5736HC7P37PVN
+2023-02-07_00:26:37.69562 ts=2023-02-07T00:26:37.695Z caller=repair.go:56 level=info component=tsdb msg="Found healthy block" mint=1675663763776 maxt=1675684800000 ulid=01GRKTQB4AF0ZG9HAZ17C6N9JD
+2023-02-07_00:26:37.69883 ts=2023-02-07T00:26:37.698Z caller=repair.go:56 level=info component=tsdb msg="Found healthy block" mint=1675706400000 maxt=1675713600000 ulid=01GRMAES2ZYE7972S7YXPE8D5S
+2023-02-07_00:26:37.70206 ts=2023-02-07T00:26:37.701Z caller=repair.go:56 level=info component=tsdb msg="Found healthy block" mint=1675684800000 maxt=1675706400000 ulid=01GRMAETSADTJ7A1ENPT32XN2J
+2023-02-07_00:26:37.70401 ts=2023-02-07T00:26:37.703Z caller=repair.go:56 level=info component=tsdb msg="Found healthy block" mint=1675713600000 maxt=1675720800000 ulid=01GRMHJWBXXVFXP82YV2QM7WHB
+2023-02-07_00:26:37.71246 ts=2023-02-07T00:26:37.712Z caller=dir_locker.go:77 level=warn component=tsdb msg="A lockfile from a previous execution already existed. It was replaced" file=/var/opt/gitlab/prometheus/data/lock
+2023-02-07_00:26:38.18480 ts=2023-02-07T00:26:38.184Z caller=head.go:495 level=info component=tsdb msg="Replaying on-disk memory mappable chunks if any"
+2023-02-07_00:26:38.19471 ts=2023-02-07T00:26:38.194Z caller=head.go:538 level=info component=tsdb msg="On-disk memory mappable chunks replay completed" duration=10.02875ms
+2023-02-07_00:26:38.19590 ts=2023-02-07T00:26:38.194Z caller=head.go:544 level=info component=tsdb msg="Replaying WAL, this may take a while"
+2023-02-07_00:26:38.54011 ts=2023-02-07T00:26:38.540Z caller=head.go:580 level=info component=tsdb msg="WAL checkpoint loaded"
+2023-02-07_00:26:38.54160 ts=2023-02-07T00:26:38.541Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=364 maxSegment=435
+2023-02-07_00:26:38.54733 ts=2023-02-07T00:26:38.547Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=365 maxSegment=435
+2023-02-07_00:26:38.55105 ts=2023-02-07T00:26:38.551Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=366 maxSegment=435
+2023-02-07_00:26:38.55570 ts=2023-02-07T00:26:38.555Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=367 maxSegment=435
+2023-02-07_00:26:38.56062 ts=2023-02-07T00:26:38.560Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=368 maxSegment=435
+2023-02-07_00:26:38.56736 ts=2023-02-07T00:26:38.567Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=369 maxSegment=435
+2023-02-07_00:26:38.57239 ts=2023-02-07T00:26:38.572Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=370 maxSegment=435
+2023-02-07_00:26:38.57485 ts=2023-02-07T00:26:38.574Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=371 maxSegment=435
+2023-02-07_00:26:38.57848 ts=2023-02-07T00:26:38.578Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=372 maxSegment=435
+2023-02-07_00:26:38.58582 ts=2023-02-07T00:26:38.585Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=373 maxSegment=435
+2023-02-07_00:26:38.59384 ts=2023-02-07T00:26:38.593Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=374 maxSegment=435
+2023-02-07_00:26:38.59841 ts=2023-02-07T00:26:38.598Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=375 maxSegment=435
+2023-02-07_00:26:38.60307 ts=2023-02-07T00:26:38.602Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=376 maxSegment=435
+2023-02-07_00:26:38.61437 ts=2023-02-07T00:26:38.614Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=377 maxSegment=435
+2023-02-07_00:26:38.61824 ts=2023-02-07T00:26:38.618Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=378 maxSegment=435
+2023-02-07_00:26:38.62074 ts=2023-02-07T00:26:38.620Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=379 maxSegment=435
+2023-02-07_00:26:38.62556 ts=2023-02-07T00:26:38.625Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=380 maxSegment=435
+2023-02-07_00:26:38.62837 ts=2023-02-07T00:26:38.628Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=381 maxSegment=435
+2023-02-07_00:26:38.63237 ts=2023-02-07T00:26:38.632Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=382 maxSegment=435
+2023-02-07_00:26:38.64119 ts=2023-02-07T00:26:38.641Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=383 maxSegment=435
+2023-02-07_00:26:38.64474 ts=2023-02-07T00:26:38.644Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=384 maxSegment=435
+2023-02-07_00:26:38.64973 ts=2023-02-07T00:26:38.649Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=385 maxSegment=435
+2023-02-07_00:26:38.68844 ts=2023-02-07T00:26:38.688Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=386 maxSegment=435
+2023-02-07_00:26:38.70705 ts=2023-02-07T00:26:38.706Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=387 maxSegment=435
+2023-02-07_00:26:38.71071 ts=2023-02-07T00:26:38.710Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=388 maxSegment=435
+2023-02-07_00:26:38.71805 ts=2023-02-07T00:26:38.717Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=389 maxSegment=435
+2023-02-07_00:26:38.72221 ts=2023-02-07T00:26:38.722Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=390 maxSegment=435
+2023-02-07_00:26:38.73136 ts=2023-02-07T00:26:38.731Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=391 maxSegment=435
+2023-02-07_00:26:38.73459 ts=2023-02-07T00:26:38.734Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=392 maxSegment=435
+2023-02-07_00:26:38.73910 ts=2023-02-07T00:26:38.738Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=393 maxSegment=435
+2023-02-07_00:26:38.74508 ts=2023-02-07T00:26:38.744Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=394 maxSegment=435
+2023-02-07_00:26:38.75030 ts=2023-02-07T00:26:38.750Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=395 maxSegment=435
+2023-02-07_00:26:38.75481 ts=2023-02-07T00:26:38.754Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=396 maxSegment=435
+2023-02-07_00:26:38.76319 ts=2023-02-07T00:26:38.763Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=397 maxSegment=435
+2023-02-07_00:26:38.77010 ts=2023-02-07T00:26:38.770Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=398 maxSegment=435
+2023-02-07_00:26:38.77664 ts=2023-02-07T00:26:38.776Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=399 maxSegment=435
+2023-02-07_00:26:38.78067 ts=2023-02-07T00:26:38.780Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=400 maxSegment=435
+2023-02-07_00:26:38.78428 ts=2023-02-07T00:26:38.784Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=401 maxSegment=435
+2023-02-07_00:26:38.79030 ts=2023-02-07T00:26:38.790Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=402 maxSegment=435
+2023-02-07_00:26:38.79305 ts=2023-02-07T00:26:38.792Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=403 maxSegment=435
+2023-02-07_00:26:38.79864 ts=2023-02-07T00:26:38.798Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=404 maxSegment=435
+2023-02-07_00:26:38.80645 ts=2023-02-07T00:26:38.806Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=405 maxSegment=435
+2023-02-07_00:26:38.80865 ts=2023-02-07T00:26:38.808Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=406 maxSegment=435
+2023-02-07_00:26:38.81533 ts=2023-02-07T00:26:38.815Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=407 maxSegment=435
+2023-02-07_00:26:38.82215 ts=2023-02-07T00:26:38.822Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=408 maxSegment=435
+2023-02-07_00:26:38.83482 ts=2023-02-07T00:26:38.834Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=409 maxSegment=435
+2023-02-07_00:26:38.88391 ts=2023-02-07T00:26:38.883Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=410 maxSegment=435
+2023-02-07_00:26:38.89985 ts=2023-02-07T00:26:38.899Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=411 maxSegment=435
+2023-02-07_00:26:38.90704 ts=2023-02-07T00:26:38.906Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=412 maxSegment=435
+2023-02-07_00:26:38.91493 ts=2023-02-07T00:26:38.914Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=413 maxSegment=435
+2023-02-07_00:26:38.92215 ts=2023-02-07T00:26:38.921Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=414 maxSegment=435
+2023-02-07_00:26:38.92979 ts=2023-02-07T00:26:38.929Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=415 maxSegment=435
+2023-02-07_00:26:38.93676 ts=2023-02-07T00:26:38.936Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=416 maxSegment=435
+2023-02-07_00:26:38.93929 ts=2023-02-07T00:26:38.939Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=417 maxSegment=435
+2023-02-07_00:26:38.94626 ts=2023-02-07T00:26:38.946Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=418 maxSegment=435
+2023-02-07_00:26:38.95190 ts=2023-02-07T00:26:38.951Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=419 maxSegment=435
+2023-02-07_00:26:38.96412 ts=2023-02-07T00:26:38.964Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=420 maxSegment=435
+2023-02-07_00:26:38.96745 ts=2023-02-07T00:26:38.967Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=421 maxSegment=435
+2023-02-07_00:26:38.96986 ts=2023-02-07T00:26:38.969Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=422 maxSegment=435
+2023-02-07_00:26:38.98502 ts=2023-02-07T00:26:38.984Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=423 maxSegment=435
+2023-02-07_00:26:38.98941 ts=2023-02-07T00:26:38.989Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=424 maxSegment=435
+2023-02-07_00:26:38.99301 ts=2023-02-07T00:26:38.992Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=425 maxSegment=435
+2023-02-07_00:26:39.00519 ts=2023-02-07T00:26:39.005Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=426 maxSegment=435
+2023-02-07_00:26:39.01362 ts=2023-02-07T00:26:39.013Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=427 maxSegment=435
+2023-02-07_00:26:39.01662 ts=2023-02-07T00:26:39.016Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=428 maxSegment=435
+2023-02-07_00:26:39.02342 ts=2023-02-07T00:26:39.023Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=429 maxSegment=435
+2023-02-07_00:26:39.03080 ts=2023-02-07T00:26:39.030Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=430 maxSegment=435
+2023-02-07_00:26:39.03694 ts=2023-02-07T00:26:39.036Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=431 maxSegment=435
+2023-02-07_00:26:39.04260 ts=2023-02-07T00:26:39.042Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=432 maxSegment=435
+2023-02-07_00:26:39.04731 ts=2023-02-07T00:26:39.047Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=433 maxSegment=435
+2023-02-07_00:26:39.05378 ts=2023-02-07T00:26:39.053Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=434 maxSegment=435
+2023-02-07_00:26:39.05525 ts=2023-02-07T00:26:39.055Z caller=head.go:615 level=info component=tsdb msg="WAL segment loaded" segment=435 maxSegment=435
+2023-02-07_00:26:39.05583 ts=2023-02-07T00:26:39.055Z caller=head.go:621 level=info component=tsdb msg="WAL replay completed" checkpoint_replay_duration=345.334167ms wal_replay_duration=515.12ms total_replay_duration=870.633625ms
+2023-02-07_00:26:39.09186 ts=2023-02-07T00:26:39.091Z caller=main.go:997 level=info fs_type=65735546
+2023-02-07_00:26:39.09248 ts=2023-02-07T00:26:39.091Z caller=main.go:1000 level=info msg="TSDB started"
+2023-02-07_00:26:39.09292 ts=2023-02-07T00:26:39.091Z caller=main.go:1181 level=info msg="Loading configuration file" filename=/var/opt/gitlab/prometheus/prometheus.yml
+2023-02-07_00:26:39.09425 ts=2023-02-07T00:26:39.094Z caller=manager.go:317 level=error component="discovery manager scrape" msg="Cannot create service discovery" err="unable to load specified CA cert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: open /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: no such file or directory" type=kubernetes
+2023-02-07_00:26:39.09493 ts=2023-02-07T00:26:39.094Z caller=manager.go:317 level=error component="discovery manager scrape" msg="Cannot create service discovery" err="unable to load specified CA cert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: open /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: no such file or directory" type=kubernetes
+2023-02-07_00:26:39.09538 ts=2023-02-07T00:26:39.094Z caller=manager.go:317 level=error component="discovery manager scrape" msg="Cannot create service discovery" err="unable to load specified CA cert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: open /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: no such file or directory" type=kubernetes
+2023-02-07_00:26:39.11234 ts=2023-02-07T00:26:39.112Z caller=main.go:1218 level=info msg="Completed loading of configuration file" filename=/var/opt/gitlab/prometheus/prometheus.yml totalDuration=20.195542ms db_storage=958ns remote_storage=1.042µs web_handler=666ns query_engine=917ns scrape=60.459µs scrape_sd=559.25µs notify=24.708µs notify_sd=3.875µs rules=17.500708ms tracing=4.5µs
+2023-02-07_00:26:39.11341 ts=2023-02-07T00:26:39.112Z caller=main.go:961 level=info msg="Server is ready to receive web requests."
+2023-02-07_00:26:39.11422 ts=2023-02-07T00:26:39.112Z caller=main.go:1181 level=info msg="Loading configuration file" filename=/var/opt/gitlab/prometheus/prometheus.yml
+2023-02-07_00:26:39.11599 ts=2023-02-07T00:26:39.112Z caller=manager.go:941 level=info component="rule manager" msg="Starting rule manager..."
+2023-02-07_00:26:39.11778 ts=2023-02-07T00:26:39.115Z caller=manager.go:317 level=error component="discovery manager scrape" msg="Cannot create service discovery" err="unable to load specified CA cert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: open /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: no such file or directory" type=kubernetes
+2023-02-07_00:26:39.11876 ts=2023-02-07T00:26:39.115Z caller=manager.go:317 level=error component="discovery manager scrape" msg="Cannot create service discovery" err="unable to load specified CA cert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: open /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: no such file or directory" type=kubernetes
+2023-02-07_00:26:39.11987 ts=2023-02-07T00:26:39.115Z caller=manager.go:317 level=error component="discovery manager scrape" msg="Cannot create service discovery" err="unable to load specified CA cert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: open /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: no such file or directory" type=kubernetes
+2023-02-07_00:26:39.15849 ts=2023-02-07T00:26:39.158Z caller=main.go:1218 level=info msg="Completed loading of configuration file" filename=/var/opt/gitlab/prometheus/prometheus.yml totalDuration=46.150416ms db_storage=2.125µs remote_storage=2.292µs web_handler=1µs query_engine=1.791µs scrape=384.167µs scrape_sd=279.375µs notify=10.375µs notify_sd=5.5µs rules=42.679208ms tracing=5µs
+2023-02-07_00:26:44.11428 ts=2023-02-07T00:26:44.114Z caller=manager.go:213 level=error component="scrape manager" msg="error creating new scrape pool" err="error creating HTTP client: unable to load specified CA cert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: open /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: no such file or directory" scrape_pool=kubernetes-cadvisor
+2023-02-07_00:26:44.11664 ts=2023-02-07T00:26:44.114Z caller=manager.go:213 level=error component="scrape manager" msg="error creating new scrape pool" err="error creating HTTP client: unable to load specified CA cert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: open /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: no such file or directory" scrape_pool=kubernetes-pods
+2023-02-07_00:26:44.11759 ts=2023-02-07T00:26:44.114Z caller=manager.go:213 level=error component="scrape manager" msg="error creating new scrape pool" err="error creating HTTP client: unable to load specified CA cert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: open /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: no such file or directory" scrape_pool=kubernetes-nodes

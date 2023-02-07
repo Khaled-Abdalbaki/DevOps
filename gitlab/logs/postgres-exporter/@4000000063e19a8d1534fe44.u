@@ -1,0 +1,2 @@
+2023-02-07_00:24:57.90272 ts=2023-02-07T00:24:57.902Z caller=main.go:135 level=info msg="Listening on address" address=localhost:9187
+2023-02-07_00:24:57.90979 ts=2023-02-07T00:24:57.903Z caller=tls_config.go:195 level=info msg="TLS is disabled." http2=false

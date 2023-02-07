@@ -1,0 +1,133 @@
+=== puma startup: 2023-02-06 04:04:48 +0000 ===
+{"timestamp":"2023-02-06T04:04:48.770Z","pid":2428,"message":"! Promoting existing objects to old generation..."}
+{"timestamp":"2023-02-06T04:04:51.562Z","pid":2428,"message":"! Compacting..."}
+Note: GC compacting is currently disabled. Refer to `config/initializers_before_autoloader/003_gc_compact.rb` for details.
+{"timestamp":"2023-02-06T04:04:51.565Z","pid":2428,"message":"! Friendly fork preparation complete."}
+{"timestamp":"2023-02-06T04:04:55.107Z","pid":2428,"message":"- Worker 1 (PID: 3433) booted in 3.48s, phase: 0"}
+{"timestamp":"2023-02-06T04:04:55.158Z","pid":2428,"message":"- Worker 0 (PID: 3430) booted in 3.57s, phase: 0"}
+{"timestamp":"2023-02-06T04:04:55.223Z","pid":2428,"message":"- Worker 3 (PID: 3438) booted in 3.53s, phase: 0"}
+{"timestamp":"2023-02-06T04:04:55.435Z","pid":2428,"message":"- Worker 2 (PID: 3436) booted in 3.78s, phase: 0"}
+{"timestamp":"2023-02-06T04:21:30.022Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 3430"}
+{"timestamp":"2023-02-06T04:21:30.025Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 3436"}
+{"timestamp":"2023-02-06T04:21:30.039Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 3438"}
+{"timestamp":"2023-02-06T04:21:32.204Z","pid":2428,"message":"- Worker 2 (PID: 3676) booted in 1.78s, phase: 0"}
+{"timestamp":"2023-02-06T04:21:32.226Z","pid":2428,"message":"- Worker 0 (PID: 3673) booted in 1.87s, phase: 0"}
+{"timestamp":"2023-02-06T04:21:32.284Z","pid":2428,"message":"- Worker 3 (PID: 3679) booted in 1.83s, phase: 0"}
+{"timestamp":"2023-02-06T04:54:13.171Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 3673"}
+{"timestamp":"2023-02-06T04:54:13.178Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 3676"}
+{"timestamp":"2023-02-06T04:54:13.181Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 3679"}
+{"timestamp":"2023-02-06T04:54:14.855Z","pid":2428,"message":"- Worker 2 (PID: 3760) booted in 1.41s, phase: 0"}
+{"timestamp":"2023-02-06T04:54:14.857Z","pid":2428,"message":"- Worker 0 (PID: 3757) booted in 1.42s, phase: 0"}
+{"timestamp":"2023-02-06T04:54:14.858Z","pid":2428,"message":"- Worker 3 (PID: 3763) booted in 1.39s, phase: 0"}
+{"timestamp":"2023-02-06T05:38:10.983Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 3757"}
+{"timestamp":"2023-02-06T05:38:10.987Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 3760"}
+{"timestamp":"2023-02-06T05:38:10.988Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 3763"}
+{"timestamp":"2023-02-06T05:38:12.712Z","pid":2428,"message":"- Worker 2 (PID: 3855) booted in 1.53s, phase: 0"}
+{"timestamp":"2023-02-06T05:38:12.715Z","pid":2428,"message":"- Worker 3 (PID: 3860) booted in 1.44s, phase: 0"}
+{"timestamp":"2023-02-06T05:38:12.717Z","pid":2428,"message":"- Worker 0 (PID: 3858) booted in 1.46s, phase: 0"}
+{"timestamp":"2023-02-06T06:09:24.419Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 3855"}
+{"timestamp":"2023-02-06T06:09:24.425Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 3858"}
+{"timestamp":"2023-02-06T06:09:24.428Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 3860"}
+{"timestamp":"2023-02-06T06:09:26.325Z","pid":2428,"message":"- Worker 3 (PID: 3942) booted in 1.63s, phase: 0"}
+{"timestamp":"2023-02-06T06:09:26.327Z","pid":2428,"message":"- Worker 0 (PID: 3944) booted in 1.61s, phase: 0"}
+{"timestamp":"2023-02-06T06:09:26.330Z","pid":2428,"message":"- Worker 2 (PID: 3947) booted in 1.59s, phase: 0"}
+{"timestamp":"2023-02-06T06:25:19.694Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 3942"}
+{"timestamp":"2023-02-06T06:25:19.698Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 3944"}
+{"timestamp":"2023-02-06T06:25:19.702Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 3947"}
+{"timestamp":"2023-02-06T06:25:21.809Z","pid":2428,"message":"- Worker 2 (PID: 4041) booted in 1.82s, phase: 0"}
+{"timestamp":"2023-02-06T06:25:21.811Z","pid":2428,"message":"- Worker 3 (PID: 4045) booted in 1.8s, phase: 0"}
+{"timestamp":"2023-02-06T06:25:21.815Z","pid":2428,"message":"- Worker 0 (PID: 4039) booted in 1.85s, phase: 0"}
+{"timestamp":"2023-02-06T06:51:07.818Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 4039"}
+{"timestamp":"2023-02-06T06:51:07.821Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 4041"}
+{"timestamp":"2023-02-06T06:51:07.823Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 4045"}
+{"timestamp":"2023-02-06T06:51:09.528Z","pid":2428,"message":"- Worker 3 (PID: 4128) booted in 1.43s, phase: 0"}
+{"timestamp":"2023-02-06T06:51:09.529Z","pid":2428,"message":"- Worker 2 (PID: 4125) booted in 1.45s, phase: 0"}
+{"timestamp":"2023-02-06T06:51:09.530Z","pid":2428,"message":"- Worker 0 (PID: 4122) booted in 1.47s, phase: 0"}
+{"timestamp":"2023-02-06T07:25:31.662Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 4122"}
+{"timestamp":"2023-02-06T07:25:31.663Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 4125"}
+{"timestamp":"2023-02-06T07:25:31.664Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 4128"}
+{"timestamp":"2023-02-06T07:25:33.495Z","pid":2428,"message":"- Worker 3 (PID: 4225) booted in 1.58s, phase: 0"}
+{"timestamp":"2023-02-06T07:25:33.526Z","pid":2428,"message":"- Worker 0 (PID: 4222) booted in 1.65s, phase: 0"}
+{"timestamp":"2023-02-06T07:25:33.539Z","pid":2428,"message":"- Worker 2 (PID: 4228) booted in 1.6s, phase: 0"}
+{"timestamp":"2023-02-06T07:59:12.107Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 4222"}
+{"timestamp":"2023-02-06T07:59:12.125Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 4225"}
+{"timestamp":"2023-02-06T07:59:12.130Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 4228"}
+{"timestamp":"2023-02-06T07:59:13.875Z","pid":2428,"message":"- Worker 3 (PID: 4311) booted in 1.43s, phase: 0"}
+{"timestamp":"2023-02-06T07:59:13.876Z","pid":2428,"message":"- Worker 2 (PID: 4308) booted in 1.45s, phase: 0"}
+{"timestamp":"2023-02-06T07:59:13.877Z","pid":2428,"message":"- Worker 0 (PID: 4305) booted in 1.47s, phase: 0"}
+{"timestamp":"2023-02-06T08:16:21.695Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 4305"}
+{"timestamp":"2023-02-06T08:16:21.697Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 4308"}
+{"timestamp":"2023-02-06T08:16:21.701Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 4311"}
+{"timestamp":"2023-02-06T08:16:25.092Z","pid":2428,"message":"- Worker 3 (PID: 4405) booted in 2.97s, phase: 0"}
+{"timestamp":"2023-02-06T08:16:25.096Z","pid":2428,"message":"- Worker 0 (PID: 4411) booted in 2.81s, phase: 0"}
+{"timestamp":"2023-02-06T08:16:25.099Z","pid":2428,"message":"- Worker 2 (PID: 4407) booted in 2.93s, phase: 0"}
+{"timestamp":"2023-02-06T08:44:46.035Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 3433"}
+{"timestamp":"2023-02-06T08:44:46.037Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 4407"}
+{"timestamp":"2023-02-06T08:44:46.042Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 4411"}
+{"timestamp":"2023-02-06T08:44:48.395Z","pid":2428,"message":"- Worker 2 (PID: 5928) booted in 1.77s, phase: 0"}
+{"timestamp":"2023-02-06T08:44:48.406Z","pid":2428,"message":"- Worker 1 (PID: 5934) booted in 1.74s, phase: 0"}
+{"timestamp":"2023-02-06T08:44:48.425Z","pid":2428,"message":"- Worker 0 (PID: 5931) booted in 1.78s, phase: 0"}
+{"timestamp":"2023-02-06T08:59:56.622Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 5928"}
+{"timestamp":"2023-02-06T08:59:56.624Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 5931"}
+{"timestamp":"2023-02-06T08:59:56.625Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 5934"}
+{"timestamp":"2023-02-06T08:59:58.701Z","pid":2428,"message":"- Worker 0 (PID: 6161) booted in 1.68s, phase: 0"}
+{"timestamp":"2023-02-06T08:59:58.706Z","pid":2428,"message":"- Worker 1 (PID: 6158) booted in 1.8s, phase: 0"}
+{"timestamp":"2023-02-06T08:59:58.709Z","pid":2428,"message":"- Worker 2 (PID: 6164) booted in 1.66s, phase: 0"}
+{"timestamp":"2023-02-06T10:16:06.517Z","pid":2428,"message":"- Worker 3 (PID: 10678) booted in 2.96s, phase: 0"}
+{"timestamp":"2023-02-06T10:24:02.176Z","pid":2428,"message":"- Worker 2 (PID: 11195) booted in 1.77s, phase: 0"}
+{"timestamp":"2023-02-06T10:46:32.337Z","pid":2428,"message":"- Worker 0 (PID: 12485) booted in 1.6s, phase: 0"}
+{"timestamp":"2023-02-06T10:51:21.068Z","pid":2428,"message":"- Worker 1 (PID: 12698) booted in 1.54s, phase: 0"}
+{"timestamp":"2023-02-06T11:06:52.595Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 11195"}
+{"timestamp":"2023-02-06T11:06:52.601Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 12485"}
+{"timestamp":"2023-02-06T11:06:52.604Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 12698"}
+{"timestamp":"2023-02-06T11:06:55.855Z","pid":2428,"message":"- Worker 0 (PID: 13512) booted in 2.16s, phase: 0"}
+{"timestamp":"2023-02-06T11:06:55.860Z","pid":2428,"message":"- Worker 2 (PID: 13516) booted in 2.13s, phase: 0"}
+{"timestamp":"2023-02-06T11:06:55.885Z","pid":2428,"message":"- Worker 1 (PID: 13510) booted in 2.31s, phase: 0"}
+{"timestamp":"2023-02-06T11:09:33.334Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 13510"}
+{"timestamp":"2023-02-06T11:09:33.336Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 13512"}
+{"timestamp":"2023-02-06T11:09:33.337Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 13516"}
+{"timestamp":"2023-02-06T11:09:35.623Z","pid":2428,"message":"- Worker 0 (PID: 13596) booted in 1.85s, phase: 0"}
+{"timestamp":"2023-02-06T11:09:35.625Z","pid":2428,"message":"- Worker 1 (PID: 13593) booted in 1.9s, phase: 0"}
+{"timestamp":"2023-02-06T11:09:35.763Z","pid":2428,"message":"- Worker 2 (PID: 13599) booted in 1.95s, phase: 0"}
+{"timestamp":"2023-02-06T11:14:03.222Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 13593"}
+{"timestamp":"2023-02-06T11:14:03.224Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 13596"}
+{"timestamp":"2023-02-06T11:14:03.226Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 13599"}
+{"timestamp":"2023-02-06T11:14:05.664Z","pid":2428,"message":"- Worker 1 (PID: 13719) booted in 1.91s, phase: 0"}
+{"timestamp":"2023-02-06T11:14:05.667Z","pid":2428,"message":"- Worker 0 (PID: 13716) booted in 1.93s, phase: 0"}
+{"timestamp":"2023-02-06T11:14:05.681Z","pid":2428,"message":"- Worker 2 (PID: 13713) booted in 1.98s, phase: 0"}
+{"timestamp":"2023-02-06T12:05:08.393Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 10678"}
+{"timestamp":"2023-02-06T12:05:08.398Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 13713"}
+{"timestamp":"2023-02-06T12:05:08.401Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 13716"}
+{"timestamp":"2023-02-06T12:05:08.403Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 13719"}
+{"timestamp":"2023-02-06T12:05:11.786Z","pid":2428,"message":"- Worker 0 (PID: 13829) booted in 2.83s, phase: 0"}
+{"timestamp":"2023-02-06T12:05:11.811Z","pid":2428,"message":"- Worker 2 (PID: 13835) booted in 2.75s, phase: 0"}
+{"timestamp":"2023-02-06T12:05:11.845Z","pid":2428,"message":"- Worker 1 (PID: 13832) booted in 2.82s, phase: 0"}
+{"timestamp":"2023-02-06T12:05:12.254Z","pid":2428,"message":"- Worker 3 (PID: 13838) booted in 2.6s, phase: 0"}
+{"timestamp":"2023-02-06T12:49:55.897Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 13829"}
+{"timestamp":"2023-02-06T12:49:55.899Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 13832"}
+{"timestamp":"2023-02-06T12:49:55.903Z","pid":2428,"message":"! Terminating timed out worker (worker failed to check in within 60 seconds): 13838"}
+{"timestamp":"2023-02-06T12:49:57.891Z","pid":2428,"message":"- Worker 1 (PID: 13945) booted in 1.63s, phase: 0"}
+{"timestamp":"2023-02-06T12:49:57.899Z","pid":2428,"message":"- Worker 0 (PID: 13948) booted in 1.57s, phase: 0"}
+{"timestamp":"2023-02-06T12:49:57.938Z","pid":2428,"message":"- Worker 3 (PID: 13951) booted in 1.58s, phase: 0"}
+{"timestamp":"2023-02-06T13:44:29.702Z","pid":2428,"message":"- Worker 2 (PID: 17188) booted in 1.88s, phase: 0"}
+{"timestamp":"2023-02-06T14:10:01.964Z","pid":2428,"message":"- Worker 3 (PID: 18728) booted in 1.9s, phase: 0"}
+{"timestamp":"2023-02-06T14:34:02.245Z","pid":2428,"message":"- Worker 1 (PID: 20155) booted in 2.08s, phase: 0"}
+{"timestamp":"2023-02-06T14:39:03.426Z","pid":2428,"message":"- Worker 0 (PID: 20459) booted in 1.77s, phase: 0"}
+=== puma startup: 2023-02-06 15:46:20 +0000 ===
+{"timestamp":"2023-02-06T15:46:20.116Z","pid":518,"message":"! Promoting existing objects to old generation..."}
+{"timestamp":"2023-02-06T15:46:20.226Z","pid":518,"message":"! Compacting..."}
+Note: GC compacting is currently disabled. Refer to `config/initializers_before_autoloader/003_gc_compact.rb` for details.
+{"timestamp":"2023-02-06T15:46:20.228Z","pid":518,"message":"! Friendly fork preparation complete."}
+{"timestamp":"2023-02-06T15:46:20.765Z","pid":518,"message":"- Worker 0 (PID: 619) booted in 0.53s, phase: 0"}
+{"timestamp":"2023-02-06T15:46:20.824Z","pid":518,"message":"- Worker 1 (PID: 621) booted in 0.58s, phase: 0"}
+{"timestamp":"2023-02-06T15:46:20.846Z","pid":518,"message":"- Worker 2 (PID: 623) booted in 0.59s, phase: 0"}
+{"timestamp":"2023-02-06T15:46:20.880Z","pid":518,"message":"- Worker 3 (PID: 624) booted in 0.61s, phase: 0"}
+=== puma startup: 2023-02-06 15:56:13 +0000 ===
+{"timestamp":"2023-02-06T15:56:13.814Z","pid":519,"message":"! Promoting existing objects to old generation..."}
+{"timestamp":"2023-02-06T15:56:13.919Z","pid":519,"message":"! Compacting..."}
+Note: GC compacting is currently disabled. Refer to `config/initializers_before_autoloader/003_gc_compact.rb` for details.
+{"timestamp":"2023-02-06T15:56:13.920Z","pid":519,"message":"! Friendly fork preparation complete."}
+{"timestamp":"2023-02-06T15:56:14.420Z","pid":519,"message":"- Worker 0 (PID: 618) booted in 0.49s, phase: 0"}
+{"timestamp":"2023-02-06T15:56:14.498Z","pid":519,"message":"- Worker 1 (PID: 620) booted in 0.56s, phase: 0"}
+{"timestamp":"2023-02-06T15:56:14.500Z","pid":519,"message":"- Worker 3 (PID: 624) booted in 0.54s, phase: 0"}
+{"timestamp":"2023-02-06T15:56:14.551Z","pid":519,"message":"- Worker 2 (PID: 622) booted in 0.61s, phase: 0"}
