@@ -41,7 +41,4 @@
       pip:
         name: docker
 
-    - name: "copying app from local"
-      copy:
-        src: "/Users/khaledabdalbaki/Desktop/DevOps/DevOps/app 2/back"
-        dest: "./"
+  
