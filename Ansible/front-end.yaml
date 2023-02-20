@@ -10,49 +10,14 @@
         state: latest
         update_cache: true
 
-
-    - name: Update and upgrade apt packages
-      become: true
+    - name: Update apt cache
       apt:
-        upgrade: yes
         update_cache: yes
-        cache_valid_time: 86400 #One day
 
-    - name: Install required system packages
+    - name: Install Git
       apt:
-        pkg:
-          - nodejs
-          - npm
-        state: latest
-        #update_cache: true
-
-    - name: Run expect to wait for a successful PXE boot via out-of-band CIMC
-      ansible.builtin.shell: |  
-        npm install -g @angular/cli
-        sudo npm install -g n
-        sudo n latest
-
-    - name: Add Docker GPG apt Key
-      apt_key:
-        url: https://download.docker.com/linux/ubuntu/gpg
+        name: git
         state: present
+    
 
-    - name: Add Docker Repository
-      apt_repository:
-        repo: deb https://download.docker.com/linux/ubuntu focal stable
-        state: present
-
-    - name: Update apt and install docker-ce
-      apt:
-        name: docker-ce
-        state: latest
-        #update_cache: true
-
-    - name: Install Docker Module for Python
-      pip:
-        name: docker
-
-    - name: "copying app from local"
-      copy:
-        src: "/Users/khaledabdalbaki/Desktop/DevOps/DevOps/app 2/front"
-        dest: "./"
+    

@@ -1,44 +1,12 @@
-- name : Mon Playbook !
-  hosts: backend
-  become: true
+- name: Install MySQL
+  hosts: database
+  become: yes
   tasks:
-
-    #like apt package manager
-    - name: Install aptitude
+    - name: Install mysql-server package
       apt:
-        name: aptitude
-        state: latest
-        update_cache: true
-
-    - name: Install required system packages
-      apt:
-        pkg:
-          - mysql
-        state: latest
-        #update_cache: true
-
-    - name: Run expect to wait for a successful PXE boot via out-of-band CIMC
-      ansible.builtin.shell: |  
-        npm install -g @angular/cli
-
-    - name: Add Docker GPG apt Key
-      apt_key:
-        url: https://download.docker.com/linux/ubuntu/gpg
+        name: mysql-server
         state: present
-
-    - name: Add Docker Repository
-      apt_repository:
-        repo: deb https://download.docker.com/linux/ubuntu focal stable
-        state: present
-
-    - name: Update apt and install docker-ce
-      apt:
-        name: docker-ce
-        state: latest
-        #update_cache: true
-
-    - name: Install Docker Module for Python
-      pip:
-        name: docker
-
-  
+    - name: Restart MySQL service
+      systemd:
+        name: mysql
+        state: restarted
