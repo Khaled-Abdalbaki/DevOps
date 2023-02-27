@@ -10,6 +10,20 @@
         state: latest
         update_cache: true
 
+    - name: Install required packages for laravel
+      apt:
+        name:
+          - php7.4
+          - php7.4-cli
+          - php7.4-mbstring
+          - php7.4-xml
+          - php7.4-zip
+          - php7.4-curl
+          - php7.4-gd
+          - nginx
+        state: present
+
+
     - name: Install required system packages
       apt:
         pkg:
@@ -17,10 +31,6 @@
           - npm
         state: latest
         #update_cache: true
-
-    - name: Run expect to wait for a successful PXE boot via out-of-band CIMC
-      ansible.builtin.shell: |  
-        npm install -g @angular/cli
 
     - name: Add Docker GPG apt Key
       apt_key:
@@ -38,11 +48,24 @@
         state: latest
         #update_cache: true
 
-    - name: Install Docker Module for Python
-      pip:
-        name: docker
+    
+  
 
-    - name: "copying app from local"
-      copy:
-        src: "/Users/khaledabdalbaki/Desktop/DevOps/DevOps/app 2/back"
-        dest: "./"
+    - name: Download and install Composer
+      shell: curl -sS https://getcomposer.org/installer | php
+      args:
+        chdir: /usr/src/
+        creates: /usr/local/bin/composer
+        warn: false
+      become: yes
+
+    - name: Add Composer to global path
+      copy: 
+        dest: /usr/local/bin/composer
+        group: root
+        mode: '0755'
+        owner: root
+        src: /usr/src/composer.phar
+        remote_src: yes
+      become: yes
+   

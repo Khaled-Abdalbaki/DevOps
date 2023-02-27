@@ -1,12 +1,23 @@
-- name: Install MySQL
+- name : Mon Playbook !
   hosts: database
-  become: yes
+  become: true
   tasks:
-    - name: Install mysql-server package
+
+    #like apt package manager
+    - name: Install aptitude
       apt:
-        name: mysql-server
+        name: aptitude
+        state: latest
+        update_cache: true
+
+    - name: Install mysql Server
+      apt:
+        name:
+          - mariadb-server
+        state: latest
+
+    - name: Install Git
+      become: true
+      apt:
+        name: git
         state: present
-    - name: Restart MySQL service
-      systemd:
-        name: mysql
-        state: restarted

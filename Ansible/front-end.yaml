@@ -10,6 +10,19 @@
         state: latest
         update_cache: true
 
+    - name: Install Node.js and NPM
+      become: yes
+      apt:
+        name:
+          - nodejs
+          - npm
+
+    - name: Install Angular CLI
+      become: yes
+      npm:
+        name: '@angular/cli'
+        global: yes
+
     - name: Update apt cache
       apt:
         update_cache: yes
